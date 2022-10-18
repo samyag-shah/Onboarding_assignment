@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    margin-bottom:10px
+}
+@media (min-width:40px) {
+    .main__header {
+        margin-bottom:20px
+}}
+
+.main__logo{
+    margin-bottom:8px 
+}
+.main__header__h1{
+    width : 80px;   
+    text-align: center
+}
+.main__div1 {
+    padding: 0px 20px;
+}   
+
+@media (min-width:575px) {
+    .main__div1 {
+    padding: 20px 0px;    
+}}
+
+
+.main__div2{
+    padding: 15px;
+}
+
+@media (min-width:575px) {
+    .main {
+        flex-direction: column;
+        height:90%;
+        width:90%
+    }
+}
+
+.heading {
+    padding : 20px 0px;
+    vertical-align: middle;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+
+

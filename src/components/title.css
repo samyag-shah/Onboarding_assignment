@@ -1,0 +1,73 @@
+.title {
+    padding : 0px 20px
+}
+
+@media (min-width:470px) {
+    .title {
+        padding : 20px 0px
+    }
+}
+
+.last__title {
+    height: 230px;
+    margin-top: 30px ;
+    padding : 0px 20px
+}
+
+@media (min-width:353px) {
+    .last__title {
+        height: 150px;
+        margin: 30px 0px;
+    }
+}
+
+@media (min-width:470px) {
+    .last__title {
+        height: 140px;
+        margin: 30px 0px;
+        padding : 0
+    }
+}
+
+.first__h1{
+    margin-bottom: 0px;
+    font-size: 1.4rem
+} 
+@media (min-width:400px) {
+    .first__h1 {
+        font-size: 1.6rem
+    }
+}
+@media (min-width:640px) {
+    .first__h1 {
+        font-size: 1.8rem
+    }
+}
+
+.first__p {
+    color : grey
+}
+
+@media (min-width:470px) {
+    .first__p {
+        text-align: center;
+    }
+}
+
+.second__h1{
+    margin-bottom: 0px;
+}   
+.second__p {
+    color : grey
+}
+
+@media (min-width:470px) {
+    .second__h1 {
+        text-align: center;
+    }
+}
+
+.svg__div {
+    text-align:center;
+    padding : 20px
+}

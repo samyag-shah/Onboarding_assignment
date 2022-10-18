@@ -1,0 +1,13 @@
+.ant-steps-vertical {
+    display: flex;
+    flex-direction : row !important
+}
+
+.ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-icon {
+    border-color:#654de4;
+    background: #654de4 !important
+}
+
+.ant-steps-item-finish .ant-steps-item-icon{
+    border-color: #654de4 !important
+}
