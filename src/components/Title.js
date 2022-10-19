@@ -1,6 +1,6 @@
 import { Col, Row } from "antd";
 
-import "./steps.css";
+import "../CSS/steps.css";
 import imagelogo from "../Asset/download.png";
 
 const Title = ({ data, current }) => {

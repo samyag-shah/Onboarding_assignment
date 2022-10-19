@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Button, Form, Card, Input, Col, Row } from "antd";
 import { UserOutlined, TeamOutlined } from "@ant-design/icons";
 
-import "./form.css";
+import "../CSS/form.css";
 
 const { Meta } = Card;
 
@@ -37,7 +37,7 @@ const FormSteps = ({ current, setCurrent }) => {
     return windowDimensions;
   }
 
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   const onFinish = () => {
     //Check if there is no selection of card

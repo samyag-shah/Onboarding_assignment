@@ -4,7 +4,7 @@ import Form from "./Form";
 import Steps from "./Steps";
 import Title from "./Title";
 
-import "./formStep.css";
+import "../CSS/formStep.css";
 import logo from "../Asset/logo.png";
 
 //Static data (Title and description)

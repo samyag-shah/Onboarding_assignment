@@ -1,6 +1,6 @@
 import { Steps, Row, Col } from "antd";
 
-import "./title.css";
+import "../CSS/title.css";
 
 const { Step } = Steps;
 
